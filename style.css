@@ -9,3 +9,36 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.form-section {
+    margin: 12px 0 12px 0; 
+    display: flex;
+    flex-direction: column;
+}
+
+.text-field {
+    height: 30px;
+    border: 1px solid rgb(168, 175, 177);
+    border-radius: 6px;
+    padding: 0 8px 0 8px;
+    color: rgb(153, 163, 165);
+    z-index: 0;
+}
+
+.input-label {
+    z-index: 1;
+    width:max-content;
+    position: relative;
+    left: 8px;
+    margin-bottom: -8px;
+    background-color: white;
+    font-size: 13px;
+    color: rgb(111, 126, 131);
+}
+
+.btn {
+    height: 30px;
+    border: 1px solid rgb(168, 175, 177);
+    border-radius: 6px;
+    color: gray;
+}
